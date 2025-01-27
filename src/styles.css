@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #171f2a; /* Основной цвет */
+    --secondary-color: #0e131af3; /* Вторичный цвет */
+    --accent-color: #1A1A26; /* Акцентный цвет */
+}
+
+.primaryColor {
+    background-color: var(--primary-color);
+}
+
+.secondaryColor {
+    background-color: var(--secondary-color);
+}
+
+.accent-color {
+    background-color: var(--accent-color);
+}
+
+  .my-calendar .vc-weekday-1, .my-calendar .vc-weekday-7 {
+    color: #ff5f03;
+  }
