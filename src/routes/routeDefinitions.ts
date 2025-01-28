@@ -7,7 +7,8 @@ function parseRoutes(init: Record<string, string>) {
 
 const ERoutes: Record<string, string> = parseRoutes({
     HomePage: '/',
-    Auth: '/Auth'
+    Auth: '/Auth',
+    TripsPage: '/TripsPage'
 });
 
 export { ERoutes };

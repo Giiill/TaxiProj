@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ERoutes } from './routeDefinitions';
 import { HomePage } from '../pages/HomePage';
 import { Auth } from '../pages/Auth';
+import { TripsPage } from '../pages/TripsPage';
 
 type Route = {
     path: string,
@@ -12,6 +13,7 @@ type RouteConfig = Route[];
 
 const routes: RouteConfig = [
     { path: ERoutes.Auth, element: <Auth /> },
+    { path: ERoutes.TripsPage, element: <TripsPage /> }
 ];
 
 const routeConfig = (
